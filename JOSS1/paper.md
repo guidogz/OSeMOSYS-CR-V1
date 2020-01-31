@@ -35,10 +35,6 @@ affiliations:
 date: 30 January 2020
 bibliography: paper.bib
 
-# Optional fields if submitting to a AAS journal too, see this blog post:
-# https://blog.joss.theoj.org/2018/12/a-new-collaboration-with-aas-publishing
-aas-doi: 10.3847/xxxxx <- update this with the DOI from AAS once you know it.
-aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
 # Summary
@@ -50,12 +46,12 @@ This sector represents 44% of the total Greenhouses Gases (GHG) emission of the 
 In this context, the University of Costa Rica, The Royal Institute of Technology, and the Climate Change Directorate developed 
 ``OSeMOSYS-CR`` to support national energy-related climate change policy. 
 This work emerged as part of the Deep Decarbonisation Pathways Project in Latin America and the Caribbean (DDPP-LAC), 
-which is coordinated by the Institute for Sustainable Development and International Relations (IDDRI) and the Inter-American Development Bank (IADB) [IDB2019]. 
-As a result, the model helped to formulate and analyze the National Decarbonisation Plan of Costa Rica (NDP) [MINAE2019], 
+which is coordinated by the Institute for Sustainable Development and International Relations (IDDRI) and the Inter-American Development Bank (IADB) [@IDB2019]. 
+As a result, the model helped to formulate and analyze the National Decarbonisation Plan of Costa Rica (NDP) [@MINAE2019], 
 which is the long-term low-level GHG strategy of the country, representing an advance in terms of transparency and the decision-making process.
 
 
-``OSeMOSYS-CR`` is an Energy System Optimization Model (ESOM) based on Open Source Energy Modelling System (OSeMOSYS) [HOWELLS20115850;GARDUMI2018209] that follows a bottom-up 
+``OSeMOSYS-CR`` is an Energy System Optimization Model (ESOM) based on Open Source Energy Modelling System (OSeMOSYS) [@HOWELLS20115850;@GARDUMI2018209] that follows a bottom-up 
 approach to establishing the most cost-effective technological transitions towards a deep decarbonisation in the energy sector. 
 The model has a particular attention to transportation (mobility and cargo) and its relation with the power grid and alternatives energy carriers, 
 which are crucial for understanding the technological transition to reach zero emissions by 2050. The model was built on a countrywide scale 
@@ -76,16 +72,7 @@ activity level, and capacities, according to their characteristics. Documentatio
 ![Simple reference energy system for OSeMOSYS-CR model.](SimpleModel.png)
 
 
-# Citations
 
-Citations to entries in paper.bib should be in
-[rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-format.
-
-For a quick reference, the following citation commands can be used:
-- `@author:2001`  ->  "Author et al. (2001)"
-- `[@author:2001]` -> "(Author et al., 2001)"
-- `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
 
 # Figures
 
