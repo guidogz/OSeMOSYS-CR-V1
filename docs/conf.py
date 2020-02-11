@@ -16,7 +16,7 @@ project = u'Read the Docs Sphinx Theme'
 slug = re.sub(r'\W+', '-', project.lower())
 version = __version__
 release = __version__
-author = u'EPERLab-UCR, & contributors'
+author = u'Dave Snider, Read the Docs, Inc. & contributors'
 copyright = author
 language = 'en'
 
@@ -24,10 +24,9 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
-    'sphinx.ext.viewcode'
- ]   
-    #'sphinxcontrib.httpdomain',
-#]
+    'sphinx.ext.viewcode',
+    'sphinxcontrib.httpdomain',
+]
 
 templates_path = ['_templates']
 source_suffix = '.rst'
